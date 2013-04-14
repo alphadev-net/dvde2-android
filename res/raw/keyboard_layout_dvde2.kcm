@@ -1,0 +1,50 @@
+# German Dvorak Type2 keyboard layout
+# missing handling of 102nd key which contains hash and tilde
+# UTF-8 encoded
+#
+type FULL
+key A {
+	label:	'A'
+	base:	'a'
+	shift:	'A'
+}
+key S {
+	label:	'O'
+	base:	'o'
+	shift:	'O'
+}
+key D {
+	label:	'E'
+	base:	'e'
+	shift: 	'E'
+}
+key F {
+	label:	'I'
+	base:	'i'
+	ralt:	'I'
+}
+key G {
+	label:	'U'
+	base:	'u'
+	shift: 	'U'
+}
+key H {
+	label:	'H'
+	base:	'h'
+	shift: 	'H'
+}
+key J {
+	label:	'D'
+	base:	'd'
+	shift: 	'D'
+}
+key K {
+	label:	'R'
+	base:	'r'
+	shift: 	'R'
+}
+key L {
+	label:	'N'
+	base:	'n'
+	shift: 	'N'
+}
