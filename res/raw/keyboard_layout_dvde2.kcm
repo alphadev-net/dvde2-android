@@ -2,11 +2,13 @@
 # missing handling of 102nd key which contains hash and tilde
 # UTF-8 encoded
 #
-type FULL
+type OVERLAY
+#Home row
 key A {
 	label:	'A'
 	base:	'a'
 	shift:	'A'
+	alt:	'\u0040'
 }
 key S {
 	label:	'O'
@@ -47,4 +49,135 @@ key L {
 	label:	'N'
 	base:	'n'
 	shift: 	'N'
+}
+key SEMICOLON {
+	label: 'S'
+	base: 's'
+	shift: 'S'
+}
+key APOSTROPHE {
+	label: 'L'
+	base: 'l'
+	shift: 'L'
+}
+key BACKSLASH {
+	label: '-'
+	base: '-'
+	shift: '_'
+}
+
+#Top row
+key Q {
+	label: '\u00DC'
+	base: '\u00FC'
+	shift: '\u00DC'
+}
+key W {
+	label: ','
+	base: ','
+	shift: ';'
+}
+key E {
+	label: '.'
+	base: '.'
+	shift: ':'
+}
+key R {
+	label: 'P'
+	base: 'p'
+	shift: 'P'
+}
+key T {
+	label: 'Y'
+	base: 'y'
+	shift: 'Y'
+}
+key Y {
+	label: 'F'
+	base: 'f'
+	shift: 'F'
+}
+key U {
+	label: 'G'
+	base: 'g'
+	shift: 'G'
+}
+key I {
+	label: 'C'
+	base: 'c'
+	shift: 'C'
+}
+key O {
+	label: 'T'
+	base: 't'
+	shift: 'T'
+}
+key P {
+	label: 'Z'
+	base: 'z'
+	shift: 'Z'
+}
+key RIGHT_BRACKET {
+	label: '/'
+	base: '/'
+	shift: '\\'
+}
+# Bottom row
+key Z {
+	label: '\u00D6'
+	base: '\u00F6'
+	shift: '\u00D6'
+}
+key X {
+	label: 'Q'
+	base: 'q'
+	shift: 'Q'
+	alt: '\u0040'
+}
+key C {
+	label: 'J'
+	base: 'j'
+	shift: 'J'
+}
+key V {
+	label: 'K'
+	base: 'k'
+	shift: 'K'
+}
+key B {
+	label: 'X'
+	base: 'x'
+	shift: 'X'
+}
+key N {
+	label: 'B'
+	base: 'b'
+	shift: 'B'
+}
+key M {
+	label: 'M'
+	base: 'm'
+	shift: 'M'
+}
+key COMMA {
+	label: 'W'
+	base: 'w'
+	shift: 'W'
+}
+key PERIOD {
+	label: 'V'
+	base: 'v'
+	shift: 'V'
+}
+key SLASH {
+	label: '#'
+	base: '#'
+	shift: '\''
+}
+
+#Special Keys
+key GRAVE {
+	label: '\u00C4'
+	base: '\u00E4'
+	shift: '\u00C4'
 }
