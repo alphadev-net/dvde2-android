@@ -1,5 +1,4 @@
 # German Dvorak Type2 keyboard layout
-# missing handling of 102nd key which contains hash and tilde
 # UTF-8 encoded
 #
 type OVERLAY
@@ -7,58 +6,58 @@ type OVERLAY
 key A {
 	label:	'A'
 	base:	'a'
-	shift:	'A'
+	capslock,shift:	'A'
 	alt:	'\u0040'
 }
 key S {
 	label:	'O'
 	base:	'o'
-	shift:	'O'
+	capslock,shift:	'O'
 }
 key D {
 	label:	'E'
 	base:	'e'
-	shift: 	'E'
+	capslock,shift: 	'E'
 }
 key F {
 	label:	'I'
 	base:	'i'
-	ralt:	'I'
+	capslock,shift:	'I'
 }
 key G {
 	label:	'U'
 	base:	'u'
-	shift: 	'U'
+	capslock,shift: 	'U'
 }
 key H {
 	label:	'H'
 	base:	'h'
-	shift: 	'H'
+	capslock,shift: 	'H'
 }
 key J {
 	label:	'D'
 	base:	'd'
-	shift: 	'D'
+	capslock,shift: 	'D'
 }
 key K {
 	label:	'R'
 	base:	'r'
-	shift: 	'R'
+	capslock,shift: 	'R'
 }
 key L {
 	label:	'N'
 	base:	'n'
-	shift: 	'N'
+	capslock,shift: 	'N'
 }
 key SEMICOLON {
 	label: 'S'
 	base: 's'
-	shift: 'S'
+	capslock,shift: 'S'
 }
 key APOSTROPHE {
 	label: 'L'
 	base: 'l'
-	shift: 'L'
+	capslock,shift: 'L'
 }
 key BACKSLASH {
 	label: '-'
@@ -70,7 +69,7 @@ key BACKSLASH {
 key Q {
 	label: '\u00DC'
 	base: '\u00FC'
-	shift: '\u00DC'
+	capslock,shift: '\u00DC'
 }
 key W {
 	label: ','
@@ -85,37 +84,42 @@ key E {
 key R {
 	label: 'P'
 	base: 'p'
-	shift: 'P'
+	capslock,shift: 'P'
 }
 key T {
 	label: 'Y'
 	base: 'y'
-	shift: 'Y'
+	capslock,shift: 'Y'
 }
 key Y {
 	label: 'F'
 	base: 'f'
-	shift: 'F'
+	capslock,shift: 'F'
 }
 key U {
 	label: 'G'
 	base: 'g'
-	shift: 'G'
+	capslock,shift: 'G'
 }
 key I {
 	label: 'C'
 	base: 'c'
-	shift: 'C'
+	capslock,shift: 'C'
 }
 key O {
 	label: 'T'
 	base: 't'
-	shift: 'T'
+	capslock,shift: 'T'
 }
 key P {
 	label: 'Z'
 	base: 'z'
-	shift: 'Z'
+	capslock,shift: 'Z'
+}
+key LEFT_BRACKET {
+	label: '?'
+	base: '?'
+	shift: '\u00DF'
 }
 key RIGHT_BRACKET {
 	label: '/'
@@ -126,48 +130,48 @@ key RIGHT_BRACKET {
 key Z {
 	label: '\u00D6'
 	base: '\u00F6'
-	shift: '\u00D6'
+	capslock,shift: '\u00D6'
 }
 key X {
 	label: 'Q'
 	base: 'q'
-	shift: 'Q'
+	capslock,shift: 'Q'
 	alt: '\u0040'
 }
 key C {
 	label: 'J'
 	base: 'j'
-	shift: 'J'
+	capslock,shift: 'J'
 }
 key V {
 	label: 'K'
 	base: 'k'
-	shift: 'K'
+	capslock,shift: 'K'
 }
 key B {
 	label: 'X'
 	base: 'x'
-	shift: 'X'
+	capslock,shift: 'X'
 }
 key N {
 	label: 'B'
 	base: 'b'
-	shift: 'B'
+	capslock,shift: 'B'
 }
 key M {
 	label: 'M'
 	base: 'm'
-	shift: 'M'
+	capslock,shift: 'M'
 }
 key COMMA {
 	label: 'W'
 	base: 'w'
-	shift: 'W'
+	capslock,shift: 'W'
 }
 key PERIOD {
 	label: 'V'
 	base: 'v'
-	shift: 'V'
+	capslock,shift: 'V'
 }
 key SLASH {
 	label: '#'
@@ -179,5 +183,5 @@ key SLASH {
 key GRAVE {
 	label: '\u00C4'
 	base: '\u00E4'
-	shift: '\u00C4'
+	capslock,shift: '\u00C4'
 }
