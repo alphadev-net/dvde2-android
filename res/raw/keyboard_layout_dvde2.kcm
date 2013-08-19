@@ -13,6 +13,8 @@ key S {
 	label:	'O'
 	base:	'o'
 	capslock,shift:	'O'
+	alt: '\u015F'
+	alt+shift: '\u015E'
 }
 key D {
 	label:	'E'
@@ -23,6 +25,8 @@ key F {
 	label:	'I'
 	base:	'i'
 	capslock,shift:	'I'
+	alt: '\u0131'
+	alt+shift: '\u0130'
 }
 key G {
 	label:	'U'
@@ -48,6 +52,8 @@ key L {
 	label:	'N'
 	base:	'n'
 	capslock,shift: 	'N'
+	alt: '\u00F1'
+	alt+shift: '\u00D1'
 }
 key SEMICOLON {
 	label: 'S'
@@ -100,11 +106,15 @@ key U {
 	label: 'G'
 	base: 'g'
 	capslock,shift: 'G'
+	alt: '\u011F'
+	alt+shift: '\u011E'
 }
 key I {
 	label: 'C'
 	base: 'c'
 	capslock,shift: 'C'
+	alt: '\u00E7'
+	alt+shift: '\u00C7'
 }
 key O {
 	label: 'T'
